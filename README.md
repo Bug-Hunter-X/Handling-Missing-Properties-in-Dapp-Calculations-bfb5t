@@ -1,0 +1,3 @@
+# Handling Missing Properties in Dapp Calculations
+
+This repository demonstrates a common error in Dapps: handling missing properties in data structures.  The `bug.js` file shows code that incorrectly assumes the presence of a `price` property in an array of items. This can lead to unexpected errors and incorrect calculations, especially in user-provided data.  The solution in `bugSolution.js` provides robust error handling to address this issue.
